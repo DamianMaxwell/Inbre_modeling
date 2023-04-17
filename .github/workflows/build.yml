@@ -46,7 +46,7 @@ jobs:
         git clone --depth 1 https://github.com/rcsb/mmtf-cpp.git
         cp -R mmtf-cpp/include/mmtf* include/
         mkdir -p include/catch2
-        (cd include/catch2; wget -nv https://github.com/catchorg/Catch2/releases/download/v2.12.2/catch.hpp)
+        (cd include/catch2; wget -nv https://github.com/catchorg/Catch2/releases/download/v2.13.5/catch.hpp)
 
     - name: Build
       run: |
